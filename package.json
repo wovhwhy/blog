@@ -40,6 +40,7 @@
     "hexo-theme-landscape": "^1.0.0"
   },
   "devDependencies": {
-    "prettier": "3.3.3"
+    "prettier": "3.3.3",
+    "prettier-plugin-ejs": "^1.0.3"
   }
 }

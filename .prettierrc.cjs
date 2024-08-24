@@ -1,5 +1,6 @@
 // Prettier 配置 - 代码风格格式化
 module.exports = {
+  plugins: ['prettier-plugin-ejs'],
   // 指定每行代码的建议长度，超出换行
   printWidth: 1000,
   // 指定每层缩进的空格数
