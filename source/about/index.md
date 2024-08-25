@@ -1,5 +1,6 @@
 ---
 title: 关于
+type: about
 date: 2024-8-24
 updated: 2024-8-24
 pinned: 0

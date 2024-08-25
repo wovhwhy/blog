@@ -29,14 +29,6 @@ menu:
     name: house
     theme: solid
     link: /
-  关于:
-    name: id-card
-    theme: solid
-    link: /about
-  归纳:
-    name: box-archive
-    theme: solid
-    link: /archives
   分类:
     name: bookmark
     theme: solid
@@ -45,6 +37,18 @@ menu:
     name: tags
     theme: solid
     link: /tags
+  归档:
+    name: box-archive
+    theme: solid
+    link: /archives
+  友链:
+    name: link
+    theme: solid
+    link: /links
+  关于:
+    name: id-card
+    theme: solid
+    link: /about
 
 # Side info card
 card:
@@ -134,7 +138,7 @@ gitalk:
 # https://github.com/walinejs/waline
 waline:
   enable: true
-  serverURL: https://comment.whyaaa.top  # Waline server address url, you should set this to your own link
+  serverURL: https://comment.whyaaa.top # Waline server address url, you should set this to your own link
   locale: # Locale: https://waline.js.org/guide/client/i18n.html#locale-option
   commentCount: true # If false, comment count will only be displayed in post page, not in home page
   pageview: true # Pageviews count, Note: You should not enable both `waline.pageview` and `leancloud_visitors`
